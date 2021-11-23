@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e44cb96e-f64c-46f2-8465-dd7483fd1818" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/new2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/new3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/new4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/new5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/new6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/new7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/new8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/new1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/new1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e44cb96e-f64c-46f2-8465-dd7483fd1818" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637667667657</updated>
       <workItem from="1637667669736" duration="5165000" />
-      <workItem from="1637687816882" duration="4463000" />
+      <workItem from="1637687816882" duration="4839000" />
     </task>
     <servers />
   </component>
