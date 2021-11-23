@@ -1,6 +1,30 @@
-* {
+*, body {
     /*border: 1px black dotted;*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+.header {
+    background-color: white;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.header__menu a {
+    display: block;
+    color: rgba(151, 103, 39, 1);
+    text-decoration: none;
+}
+
+.header__menu a:hover {
+    text-decoration: underline;
+}
+
 
 body {
     font-family: sans-serif;
@@ -8,7 +32,7 @@ body {
     color: white;
 }
 
-.main {
+.main__me {
     display: flex;
     justify-content: space-between;
 }
@@ -26,11 +50,101 @@ body {
     width: 48%;
 }
 
-.main__logo, .main__photo {
+.header__logo, .main__photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
 
     max-width: 100%;
     max-height: 100%;
+}
+
+.news__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__news {
+    margin-top: 30px;
+}
+
+.news__item {
+    max-width: 20%;
+}
+
+.new__picture img {
+    max-width: 100%;
+}
+
+
+
+.news_second .news__container {
+    flex-wrap: wrap;
+}
+
+.news_second .news__item {
+    max-width: unset;
+    width: 45%;
+    margin-bottom: 15px;
+}
+
+.news_second .news__item:nth-child(2n) {
+    text-align: right;
+
+}
+
+.contacts {
+    background-color: black;
+    height: 60px;
+    text-align: right;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 60px;
+    margin: 0 20px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .main__me {
+        flex-wrap: wrap;
+    }
+
+    .main__about, .main__photo-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__description {
+        flex-wrap: wrap;
+    }
+
+    .main__about-me, .main__review {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .news__container {
+        flex-wrap: wrap !important;
+    }
+
+    .news__item {
+        max-width: unset !important;
+        min-width: unset !important;
+        width: 100% !important;
+    }
+
+    .new__description {
+        text-align: center;
+    }
 }
