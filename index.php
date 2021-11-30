@@ -1,38 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta content='true' name='HandheldFriendly'/>
-    <meta content='width' name='MobileOptimized'/>
-    <meta content='yes' name='apple-mobile-web-app-capable'/>
-    <link href="style.css" rel="stylesheet">
-    <?php
-    $hour = (int)date("G");
-    if (($hour >= 8) && ($hour < 20)) {
-        echo '<link href="daily.css" rel="stylesheet">';
-    } else {
-        echo '<link href="nightly.css" rel="stylesheet">';
-    }
-    ?>
-    <title>Title</title>
-</head>
-<body>
+<?php
+require_once $_SERVER["DOCUMENT_ROOT"] . "/header.php";
+?>
 
 
-<header class="header">
-    <img src="img/logo.png" class="header__logo">
-    <div class="header__menu">
-        <a href="#about-me">Обо мне</a>
-        <a href="#news-line">Новости одной строкой</a>
-        <a href="#news-tile">Новости плиткой</a>
-    </div>
-</header>
-
-<main class="main">
     <section class="main__me" id="about-me">
         <div class="main__photo-container">
-            <img src="img/foto.jpg" class="main__photo">
+            <img src="assets/img/foto.jpg" class="main__photo">
         </div>
         <div class="main__about">
             <div class="main__name">
@@ -91,7 +64,7 @@
 
             <div class="news__item new">
                 <div class="new__picture">
-                    <img src="img/new1.jpg" alt="Generation П">
+                    <img src="assets/img/new1.jpg" alt="Generation П">
                 </div>
                 <div class="new__description">
                     "Generation П" Виктор Пелевин
@@ -100,7 +73,7 @@
 
             <div class="news__item new">
                 <div class="new__picture">
-                    <img src="img/new4.jpg" alt="День опричника">
+                    <img src="assets/img/new4.jpg" alt="День опричника">
                 </div>
                 <div class="new__description">
                     "День опричника" Владимир Сорокин
@@ -109,7 +82,7 @@
 
             <div class="news__item new">
                 <div class="new__picture">
-                    <img src="img/new2.jpg" alt="Тайные виды на гору Фудзи">
+                    <img src="assets/img/new2.jpg" alt="Тайные виды на гору Фудзи">
                 </div>
                 <div class="new__description">
                     "Тайные виды на гору Фудзи" Виктор Пелевин
@@ -118,7 +91,7 @@
 
             <div class="news__item new">
                 <div class="new__picture">
-                    <img src="img/new3.jpg" alt="Золотой теленок">
+                    <img src="assets/img/new3.jpg" alt="Золотой теленок">
                 </div>
                 <div class="new__description">
                     "Золотой теленок" Илья Ильф и Евгений Петров
@@ -133,7 +106,7 @@
 
             <div class="news__item new">
                 <div class="new__picture">
-                    <img src="img/new5.jpg" alt="Ночной портье">
+                    <img src="assets/img/new5.jpg" alt="Ночной портье">
                 </div>
                 <div class="new__description">
                     "Ночной портье" Ирвин Шоу
@@ -142,7 +115,7 @@
 
             <div class="news__item new">
                 <div class="new__picture">
-                    <img src="img/new6.jpg" alt="451 градус по фаренгейту">
+                    <img src="assets/img/new6.jpg" alt="451 градус по фаренгейту">
                 </div>
                 <div class="new__description">
                     "451 градус по фаренгейту" Рей Брэдбери
@@ -151,7 +124,7 @@
 
             <div class="news__item new">
                 <div class="new__picture">
-                    <img src="img/new7.jpg" alt= "Омон Ра">
+                    <img src="assets/img/new7.jpg" alt= "Омон Ра">
                 </div>
                 <div class="new__description">
                     "Омон Ра" Виктор Пелевин
@@ -160,7 +133,7 @@
 
             <div class="news__item new">
                 <div class="new__picture">
-                    <img src="img/new8.jpg" alt="Айфак 10">
+                    <img src="assets/img/new8.jpg" alt="Айфак 10">
                 </div>
                 <div class="new__description">
                     "Айфак 10" Виктор Пелевин
@@ -170,20 +143,6 @@
         </div>
     </section>
 
-
-</main>
-
-<footer>
-    <div class="contacts">
-        <a href="vk.com">ВКонтакте</a>
-        <a href="instagram.com">Instagram</a>
-        <a href="fb.com">Facebook</a>
-    </div>
-</footer>
-
-
-
-
-
-</body>
-</html>
+<?php
+require_once $_SERVER["DOCUMENT_ROOT"] . "/footer.php";
+?>

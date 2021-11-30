@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e44cb96e-f64c-46f2-8465-dd7483fd1818" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/daily.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nightly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/arrays/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/daily.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/foto.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/foto.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/new1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/new2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/new3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/new4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/new5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/new6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/new7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/new8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nightly.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/nightly.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +42,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="21JmfZLRAcoMWPq6GwHLJdvVCcg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,6 +68,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\homepage\assets\css" />
+      <recent name="C:\OpenServer\domains\homepage\assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
