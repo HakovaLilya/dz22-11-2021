@@ -7,6 +7,14 @@
     <meta content='width' name='MobileOptimized'/>
     <meta content='yes' name='apple-mobile-web-app-capable'/>
     <link href="style.css" rel="stylesheet">
+    <?php
+    $hour = (int)date("G");
+    if (($hour >= 8) && ($hour < 20)) {
+        echo '<link href="daily.css" rel="stylesheet">';
+    } else {
+        echo '<link href="nightly.css" rel="stylesheet">';
+    }
+    ?>
     <title>Title</title>
 </head>
 <body>
@@ -22,7 +30,6 @@
 </header>
 
 <main class="main">
-
     <section class="main__me" id="about-me">
         <div class="main__photo-container">
             <img src="img/foto.jpg" class="main__photo">
