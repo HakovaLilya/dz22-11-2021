@@ -7,6 +7,7 @@
     <meta content='width' name='MobileOptimized'/>
     <meta content='yes' name='apple-mobile-web-app-capable'/>
     <link href="/assets/css/style.css" rel="stylesheet">
+    <script src="/assets/js/script.js"></script>
     <?php
     $hour = (int)date("G");
     if (($hour >= 8) && ($hour < 20)) {

@@ -162,3 +162,15 @@ body {
 .main__task > div > ul, main__task > div > li {
     margin-left: 20px;
 }
+
+.colourful-text-first {
+    color: coral;
+}
+
+.colourful-text-second {
+    color: chartreuse;
+}
+
+.colourful-text-third {
+    color: brown;
+}
