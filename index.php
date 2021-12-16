@@ -25,14 +25,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/header.php";
                             'В октебре 2021 года прослушала книгу Джорджа Оруэлла "1984". На данный момент слушаю книгу моего любимого писателя В.Пелевина ' .
                             '"Непобидимое солнце". Мне нравится ютуб канал Юрия Дудя, много полезной информации. Считаю, что главное в жизни это развитие.'
                         ;
-                        $textAr = explode('.', $textAboutMe);
-                        foreach ($textAr as $key => $value) {
-                            if ($key == 0) {
-                                echo '<span class="colourful-text-first">' . $value . '</span>.';
-                            } else {
-                                echo $value . '.';
-                            }
-                        }
+                        echo beautyParagraphAboutMe($textAboutMe);
                         ?>
                     </p>
                 </div>
@@ -40,14 +33,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/header.php";
                     <p>
                         <?
                         $textReview = 'На данный момент все нравится.';
-                        $textReviewAr = explode(' ', $textReview);
-                        foreach ($textReviewAr as $key => $value) {
-                            if ($key%2 == 0) {
-                                echo '<span class="colourful-text-second">' . $value . '</span> ';
-                            } else {
-                                echo '<span class="colourful-text-third">' . $value . '</span> ';
-                            }
-                        }
+                        echo beautyParagraphMainReview($textReview);
                         ?>
                     </p>
                 </div>
@@ -153,12 +139,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/header.php";
 
             <?
             if (!empty($_GET['birthday'])) {
-                $now = new DateTime(); // текущее время на сервере
-                $date = DateTime::createFromFormat("d.m.Y", $_GET['birthday']); // задаем дату в любом формате
-                $interval = $now->diff($date); // получаем разницу в виде объекта DateInterval
-                echo $interval->y, " лет и "; // кол-во лет
-                echo $interval->m, " месяцев и "; // кол-во лет
-                echo $interval->d, " дней."; // кол-во дней
+                echo getIntervalByBirthday($_GET['birthday']);
             }
             ?>
         </div>
